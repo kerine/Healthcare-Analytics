@@ -2,3 +2,4 @@ g <- ggplot(cars, aes(speed, dist))+geom_point(colour="black")
 h <- dplyr::slice(cars, 1:2)
 g
 h
+i
