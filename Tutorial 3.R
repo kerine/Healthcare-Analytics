@@ -17,7 +17,7 @@ b <- labs$AGE
 d <- as.numeric(labs$TC)
 e <- labs$Gender
 f <- labs$ETHNIC
-new.df <- data.frame(a=c(135),b=c(35),d=c(150),e=c("M"), f=c("C"))
+new.df <- data.frame(a=c(135),b=c(45),d=c(150),e=c("M"), f=c("C"))
 BMI = labs$WT/labs$HT^2
 model <- lm(BMI ~ a + b + d + e + f, data=df)
 summary(model)
